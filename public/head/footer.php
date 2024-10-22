@@ -3,32 +3,49 @@
         <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
                 <a href="#" class="flex items-center">
-                    <img src="../foto/logo.jpeg" class="h-8 me-3" alt="logoSMA" />
-                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">SMAN 1 GOMBONG</span>
+                    <img src="../foto/logo-musaba.JPG" class="h-8 me-3" alt="logoSMK" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">SMK MUHAMMADIYAH 1 BANTUL</span>
                 </a>
             </div>
+
+
             <div class="grid grid-cols-3 gap-0 sm:gap-5 sm:grid-cols-3 my-8">
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Ikuti kami</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                        <li class="mb-1"><a href="#" class="hover:underline ">instagram</a></li>
-                        <li class="mb-1"><a href="#" class="hover:underline">facebook</a></li>
-                        <li class="mb-1"><a href="#" class="hover:underline">youtube</a></li>
-                        <li><a href="#" class="hover:underline">X</a></li>
+                    <div class="row justify-content-start">
+                        <a href="https://smkmuh1bantul.sch.id" class="block mb-3 text-lg" type="button" id="btncari">
+                            <i class="fa fa-briefcase"></i> https://smkmuh1bantul.sch.id 
+                        </a>
+                        <a href="https://www.instagram.com/smkmusaba/" class="block mb-3 text-lg" type="button" id="btncari">
+                            <i class="fa fa-instagram"></i> @smkmusaba
+                        </a>
+                        <a href="https://web.facebook.com/smkmusaba" class="block mb-3 text-lg" type="button" id="btncari">
+                            <i class="fa fa-facebook-square"></i> @smkmusaba
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCfwnlEtnJvQQA6oMk8pcLUA" class="block mb-3 text-lg" type="button" id="btncari">
+                            <i class="fa fa-youtube"></i> SMK MUSABA
+                        </a>
+                        <a href="https://wa.me/6285943542304" class="block mb-3 text-lg" type="button" id="btncari">
+                            <i class="fa fa-whatsapp"></i> 085943542304
+                        </a>
                     </ul>
                 </div>
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Alamat</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                        <p>Jl. Sempor Lama</p>
-                        <p>(0287) 471170</p>
-                        <p><a href="#" class="underline">index@gmail.com</a></p>
+                    <p>Jl. Parangtritis Km 12 Manding, Kabupaten Bantul, Yogyakarta</p>
+                    <p>(0274) 367954</p>
+                        <!-- <p><a href="#" class="underline">index@gmail.com</a></p> -->
                     </ul>
                 </div>
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">About</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                        <li class="mb-4"><a href="#" class="hover:underline">Sekolah Menengah Atas Negeri 1 Gombong atau dikenal juga dengan nama smansagong yang berada di Gombong, Kebumen. SMA Negeri 1 Gombong menempati gedung di Jl. Sempor Lama No. 64 yang didirikan tahun 1963</a></li>
+                        <li class="mb-4"><a href="#" class="hover:underline">
+                        SMK Muhammadiyah 1 Bantul adalah sebuah sekolah menengah kejuruan (SMK) swasta yang didirikan pada tahun 1970 dan masih menggunakan program kurikulum belajar SMK 2013.
+                        Sekolah ini menawarkan berbagai jurusan yang disesuaikan dengan kebutuhan industri dan masyarakat, serta menyediakan berbagai kegiatan ekstrakurikuler seperti karate, basket, futsal, dan grup belajar.
+                        </a></li>
                         <li><a href="#" class="hover:underline"></a></li>
                     </ul>
                 </div>
