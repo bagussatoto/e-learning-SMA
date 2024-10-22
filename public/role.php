@@ -9,6 +9,15 @@ if (!isset($_SESSION['user_id'])) {
 
 $role = $_SESSION['role'];
 
+// Fetch user data from the database
+$user_id = $_SESSION['user_id'];
+$query = "SELECT username FROM users WHERE id = ?";
+$stmt = $conn->prepare($query);
+$stmt->bind_param("i", $user_id);
+$stmt->execute();
+$result = $stmt->get_result();
+$user = $result->fetch_assoc();
+
 ?>
 
 <html>
@@ -47,7 +56,7 @@ $role = $_SESSION['role'];
 
     <div id="welcomeMessage" class="bg-yellow-300 rounded-lg shadow-md text-center overflow-hidden px-5 mx-4 py-3 ">
         <p>selamat datang kembali, <?php echo $user['username']; ?></p>    
-    </div>  //// eror please 
+    </div> 
     <div class="container mx-auto px-4 py-10">
         <?php if ($role == 'admin'): ?>
             <a href="./admin/admin.php" class="block w-full text-center bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700">edit semua user</a>
