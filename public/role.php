@@ -143,6 +143,9 @@ $user = $result->fetch_assoc();
                         <a href="https://smkmuh1bantul.sch.id" class="block mb-3 text-lg" type="button" id="btncari">
                             <i class="fa fa-briefcase"></i> https://smkmuh1bantul.sch.id 
                         </a>
+                        <a href="https://lms.smkmuh1bantul.sch.id/" class="block mb-3 text-lg" type="button" id="btncari">
+                            <i class="fa fa-rss-square"></i> https://lms.smkmuh1bantul.sch.id/
+                        </a>
                         <a href="https://www.instagram.com/smkmusaba/" class="block mb-3 text-lg" type="button" id="btncari">
                             <i class="fa fa-instagram"></i> @smkmusaba
                         </a>
