@@ -43,10 +43,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <div class="min-h-screen flex items-center justify-center">
         <div class="bg-white p-6 rounded shadow-md w-full max-w-sm">
           <div class="flex items-center mb-4">
-            <img src="foto/logo.jpeg" alt="logoSMA" class="w-16 h-16 mr-4">
+            <img src="foto/logo-musaba.JPG" alt="logoSMK" class="w-16 h-16 mr-4">
             <div class="ml-8">
-              <h2 class="text-2xl font-bold ">ELEARNING</h2>
-              <h2 class="text-base">SMAN 1 GOMBONG</h2>
+              <h2 class="text-2xl font-bold ">E-LEARNING</h2>
+              <h2 class="text-base">SMK MUHAMMADIYAH 1 BANTUL</h2>
             </div>
           </div> 
             <form method="POST" action="login.php" class="space-y-4">
