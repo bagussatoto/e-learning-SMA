@@ -1,5 +1,5 @@
 <?php
-include '../db.php';  // Eror
+include './db.php';  // Eror
 session_start();
 
 if (!isset($_SESSION['user_id'])) {
