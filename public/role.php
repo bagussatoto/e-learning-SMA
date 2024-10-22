@@ -148,17 +148,16 @@ $user = $result->fetch_assoc();
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Alamat</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                        <p>Jl. Sempor Lama</p>
-                        <p>(0287) 471170</p>
-                        <p><a href="#" class="underline">index@gmail.com</a></p>
+                        <p>Jl. Parangtritis Km 12 Manding, Kabupaten Bantul, Yogyakarta</p>
+                        <p>(0274) 367954</p>
+                        <!-- <p><a href="#" class="underline">index@gmail.com</a></p> -->
                     </ul>
                 </div>
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">About</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
                         <li class="mb-4"><a href="#" class="hover:underline">
-                        SMK Muhammadiyah 1 Bantul adalah sebuah sekolah menengah kejuruan (SMK) swasta yang terletak di Jl. Parangtritis Km 12 Manding, Kabupaten Bantul, Yogyakarta
-                        Sekolah ini didirikan pada tahun 1970 dan masih menggunakan program kurikulum belajar SMK 2013.
+                        SMK Muhammadiyah 1 Bantul adalah sebuah sekolah menengah kejuruan (SMK) swasta yang didirikan pada tahun 1970 dan masih menggunakan program kurikulum belajar SMK 2013.
                         Sekolah ini menawarkan berbagai jurusan yang disesuaikan dengan kebutuhan industri dan masyarakat, serta menyediakan berbagai kegiatan ekstrakurikuler seperti karate, basket, futsal, dan grup belajar.
                         </a></li>
                         <li><a href="#" class="hover:underline"></a></li>
@@ -168,7 +167,7 @@ $user = $result->fetch_assoc();
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="#" class="hover:underline">smansago</a>. All Rights Reserved.</span>
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="#" class="hover:underline">SMK MUSABA</a>. All Rights Reserved.</span>
             <div class="flex mt-4 sm:justify-center sm:mt-0">
                 <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                     <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
