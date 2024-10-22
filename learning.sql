@@ -2,10 +2,10 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Jul 21, 2024 at 06:51 AM
--- Server version: 10.4.28-MariaDB
--- PHP Version: 8.2.4
+-- Host: 127.0.0.1
+-- Waktu pembuatan: 22 Okt 2024 pada 09.32
+-- Versi server: 10.4.32-MariaDB
+-- Versi PHP: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,13 +18,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `smansagong`
+-- Database: `learning`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `attendance`
+-- Struktur dari tabel `attendance`
 --
 
 CREATE TABLE `attendance` (
@@ -37,18 +37,20 @@ CREATE TABLE `attendance` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `attendance`
+-- Dumping data untuk tabel `attendance`
 --
 
 INSERT INTO `attendance` (`id`, `user_id`, `mata_pelajaran`, `kelas`, `attendance_date`, `nama`) VALUES
-(51, 3, 'IPA', 'X', '2024-07-04 16:34:03', 'indra'),
-(52, 3, 'IPA', 'X', '2024-07-10 05:09:34', 'indra'),
-(54, 3, 'MTK', 'XII', '2024-07-17 07:10:12', 'indra');
+(56, 22, 'IPA', 'X', '2024-10-22 08:24:25', 'bagus'),
+(57, 22, 'MTK', 'X', '2024-10-22 08:24:31', 'bagus'),
+(58, 22, 'Bahasa Indonesia', 'X', '2024-10-22 08:24:38', 'bagus'),
+(60, 23, 'Bahasa Inggris', 'X', '2024-10-22 09:04:07', 'budi'),
+(61, 24, 'IPS', 'XI', '2024-10-22 09:04:42', 'satoto');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `materi`
+-- Struktur dari tabel `materi`
 --
 
 CREATE TABLE `materi` (
@@ -61,23 +63,16 @@ CREATE TABLE `materi` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `materi`
+-- Dumping data untuk tabel `materi`
 --
 
 INSERT INTO `materi` (`id`, `mata_pelajaran`, `kelas`, `minggu`, `deskripsi`, `file_path`) VALUES
-(2, 'mtk', 'x', 2, 'dibaca dengan seksama', 'uploads/materi/UTS UI UX dempo.pdf'),
-(6, 'ghgh', '4', 2, 'dadas', 'dashboard_guru/materi/ .jpg'),
-(7, 'ips', 'X', 3, 'DBA', 'dashboard_guru/materi/5+Novhan+Rizki.pdf'),
-(9, 'JAWA', 'XII', 4, 'dqdqf', 'dashboard_guru/materi/# sanji_.jpg'),
-(10, 'HI', 'XI', 6, 'vgcjg', 'dashboard_guru/materi/5+Novhan+Rizki.pdf'),
-(11, 'INN', 'X', 7, 'jknoioib', '../uploads/_21ca84b2-ebef-4332-8403-ed0297437893.jpg'),
-(13, 'IPS', 'x', 2, 'HHHH', '../uploads -2.jpg'),
-(14, 'b indo', 'XI', 2, 'hahahha', '../uploads_.jpeg');
+(16, 'MTK', 'X', 1, 'Kerjakan', '../uploadswisuda pipah.docx');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `schedules`
+-- Struktur dari tabel `schedules`
 --
 
 CREATE TABLE `schedules` (
@@ -89,7 +84,7 @@ CREATE TABLE `schedules` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `schedules`
+-- Dumping data untuk tabel `schedules`
 --
 
 INSERT INTO `schedules` (`id`, `kelas`, `hari`, `mata_pelajaran`, `jam`) VALUES
@@ -112,7 +107,7 @@ INSERT INTO `schedules` (`id`, `kelas`, `hari`, `mata_pelajaran`, `jam`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `siswa_tugas`
+-- Struktur dari tabel `siswa_tugas`
 --
 
 CREATE TABLE `siswa_tugas` (
@@ -123,10 +118,19 @@ CREATE TABLE `siswa_tugas` (
   `upload_time` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Dumping data untuk tabel `siswa_tugas`
+--
+
+INSERT INTO `siswa_tugas` (`id`, `user_id`, `tugas_id`, `file_path`, `upload_time`) VALUES
+(1, 22, 17, '../uploadsSertifikat Coding Studio - Fundamental Command Linux - Bagus Budi Satoto.pdf', '2024-10-22 06:28:10'),
+(2, 22, 18, '../uploadsScreenshot 2024-08-28 105047.png', '2024-10-22 06:28:18'),
+(3, 22, 17, '../uploadsSertifikat Coding Studio - Fundamental Command Linux - Bagus Budi Satoto.pdf', '2024-10-22 06:51:55');
+
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tugas`
+-- Struktur dari tabel `tugas`
 --
 
 CREATE TABLE `tugas` (
@@ -140,18 +144,17 @@ CREATE TABLE `tugas` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `tugas`
+-- Dumping data untuk tabel `tugas`
 --
 
 INSERT INTO `tugas` (`id`, `guru_id`, `kelas`, `mata_pelajaran`, `deskripsi`, `due_date`, `overdue`) VALUES
-(13, 2, 'XII', 'IPA', 'KERJAKAN', '2024-07-04 09:36:00', 0),
-(15, 2, 'XII', 'Biologi', 'Kerjakan soal tentang Venotif dan genotif', '2024-07-18 16:30:00', 0),
-(16, 2, 'X', 'mtk', 'kerjakan tugas', '2024-07-18 16:10:00', 0);
+(17, 2, 'X', 'MTK', 'Kerjakan', '2024-10-22 14:00:00', 0),
+(18, 2, 'X', 'Bahasa Indonesia', 'Kerjakan', '2024-10-22 14:27:00', 0);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- Struktur dari tabel `users`
 --
 
 CREATE TABLE `users` (
@@ -163,45 +166,41 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `users`
+-- Dumping data untuk tabel `users`
 --
 
 INSERT INTO `users` (`id`, `username`, `password`, `role`, `kelas`) VALUES
 (1, 'admin', 'admin', 'admin', ''),
 (2, 'guru', 'guru', 'guru', ''),
-(3, 'indra', 'indra', 'siswa', 'X'),
-(15, 'ucup mansur', '1234', 'siswa', 'X'),
-(16, 'siswa1', 'siswa1', 'siswa', 'xi'),
-(17, 'nana', 'nana', 'siswa', 'xii'),
-(19, 'Dhiko Wahyu Ramantaka', 'dhiko123', 'siswa', 'XII'),
-(20, 'dian', '123', 'siswa', ''),
-(21, 'dewi', '', 'siswa', 'x');
+(22, 'bagus', 'bagus', 'siswa', 'X'),
+(23, 'budi', 'budi', 'siswa', 'XI'),
+(24, 'satoto', 'satoto', 'siswa', 'XII');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `attendance`
+-- Indeks untuk tabel `attendance`
 --
 ALTER TABLE `attendance`
   ADD PRIMARY KEY (`id`),
   ADD KEY `user_id` (`user_id`);
 
 --
--- Indexes for table `materi`
+-- Indeks untuk tabel `materi`
 --
 ALTER TABLE `materi`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `schedules`
+-- Indeks untuk tabel `schedules`
 --
 ALTER TABLE `schedules`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `siswa_tugas`
+-- Indeks untuk tabel `siswa_tugas`
 --
 ALTER TABLE `siswa_tugas`
   ADD PRIMARY KEY (`id`),
@@ -209,77 +208,77 @@ ALTER TABLE `siswa_tugas`
   ADD KEY `tugas_id` (`tugas_id`);
 
 --
--- Indexes for table `tugas`
+-- Indeks untuk tabel `tugas`
 --
 ALTER TABLE `tugas`
   ADD PRIMARY KEY (`id`),
   ADD KEY `guru_id` (`guru_id`);
 
 --
--- Indexes for table `users`
+-- Indeks untuk tabel `users`
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
 --
--- AUTO_INCREMENT for table `attendance`
+-- AUTO_INCREMENT untuk tabel `attendance`
 --
 ALTER TABLE `attendance`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=55;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=62;
 
 --
--- AUTO_INCREMENT for table `materi`
+-- AUTO_INCREMENT untuk tabel `materi`
 --
 ALTER TABLE `materi`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
--- AUTO_INCREMENT for table `schedules`
+-- AUTO_INCREMENT untuk tabel `schedules`
 --
 ALTER TABLE `schedules`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
--- AUTO_INCREMENT for table `siswa_tugas`
+-- AUTO_INCREMENT untuk tabel `siswa_tugas`
 --
 ALTER TABLE `siswa_tugas`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
--- AUTO_INCREMENT for table `tugas`
+-- AUTO_INCREMENT untuk tabel `tugas`
 --
 ALTER TABLE `tugas`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
--- AUTO_INCREMENT for table `users`
+-- AUTO_INCREMENT untuk tabel `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
--- Constraints for dumped tables
+-- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
 --
 
 --
--- Constraints for table `attendance`
+-- Ketidakleluasaan untuk tabel `attendance`
 --
 ALTER TABLE `attendance`
   ADD CONSTRAINT `attendance_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`);
 
 --
--- Constraints for table `siswa_tugas`
+-- Ketidakleluasaan untuk tabel `siswa_tugas`
 --
 ALTER TABLE `siswa_tugas`
   ADD CONSTRAINT `siswa_tugas_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`),
   ADD CONSTRAINT `siswa_tugas_ibfk_2` FOREIGN KEY (`tugas_id`) REFERENCES `tugas` (`id`);
 
 --
--- Constraints for table `tugas`
+-- Ketidakleluasaan untuk tabel `tugas`
 --
 ALTER TABLE `tugas`
   ADD CONSTRAINT `tugas_ibfk_1` FOREIGN KEY (`guru_id`) REFERENCES `users` (`id`);
