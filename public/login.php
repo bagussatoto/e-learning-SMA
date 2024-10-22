@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <link rel="stylesheet" href="style.css">
     <style>
       body {
-        background-image: url('./foto/background.jpg');
+        background-image: url('./foto/foto-bg.jpg');
         background-size: cover;
         background-position: center;
       }
