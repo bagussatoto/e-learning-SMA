@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <img src="foto/logo-musaba.JPG" alt="logoSMK" class="w-16 h-16 mr-4">
             <div class="ml-8">
               <h2 class="text-2xl font-bold ">E-LEARNING</h2>
-                <h2 class="text-base font-bold italic">SMK MUHAMMADIYAH 1 BANTUL</h2>
+                <h2 class="text-base font-bold italic">SMK MUHAMMADIYAH 1 <span class="text-yellow-500">BANTUL</span></h2>
             </div>
           </div> 
             <form method="POST" action="login.php" class="space-y-4">
