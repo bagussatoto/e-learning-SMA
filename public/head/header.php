@@ -1,7 +1,7 @@
 <header class="lg:px-16 px-4 bg-gray-400 flex shadow-md flex-wrap items-center lg:py-0 py-2">
     <div class="flex-1 flex justify-between items-center">
         <a href="../index.html" class="lg:ml-4 flex items-center justify-start lg:mb-0 mb-4 pointer-cursor">
-            <img class="rounded-full w-10 h-10 border-2 border-transparent hover:border-indigo-400" src="../foto/logo.jpeg" alt="logo sma">
+            <img class="rounded-full w-10 h-10 border-2 border-transparent hover:border-indigo-400" src="../foto/logo-musaba.JPG" alt="logo smk">
         </a>
         <a href="../index.html" role="button" class="mr-6 inline-block rounded bg-blue-500 text-white shadow-[0_4px_9px_-4px_rgba(51,45,45,0.7)] hover:bg-blue-600 hover:shadow-[0_8px_9px_-4px_rgba(51,45,45,0.2),0_4px_18px_0_rgba(51,45,45,0.1)] focus:bg-blue-800 focus:shadow-[0_8px_9px_-4px_rgba(51,45,45,0.2),0_4px_18px_0_rgba(51,45,45,0.1)] active:bg-blue-700 active:shadow-[0_8px_9px_-4px_rgba(51,45,45,0.2),0_4px_18px_0_rgba(51,45,45,0.1)] px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal transition duration-150 ease-in-out focus:outline-none focus:ring-0">kembali</a>
     </div>
