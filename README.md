@@ -83,10 +83,21 @@
 
 
 
-## Screenshot
+## 📷 Screenshot
 
-## 
-<img src="./ss/login.png" alt="Hasil" />
+## Panel Admin
+<img src="./ss/panel-admin.png" alt="panel" />
+
+## Dasboard admin
+<img src="./ss/dasboard-admin.png" alt="admin" />
+
+## Dasboard guru
+<img src="./ss/dasboard-guru.png" alt="guru" />
+
+## Dasboard siswa
+<img src="./ss/dasboard-siswa.png" alt="siswa" />
+
+
 
 
 <!-- Garis Lurus -->
