@@ -1,5 +1,5 @@
 <?php
-include './db.php';  // Eror
+include './db.php';  
 session_start();
 
 if (!isset($_SESSION['user_id'])) {
@@ -36,8 +36,8 @@ $user = $result->fetch_assoc();
     <header class="lg:px-16 px-4 bg-gray-400 flex shadow-md flex-wrap items-center lg:py-0 py-2">
         <div class="flex-1 flex justify-between items-center">
             <a href="index.html" class="lg:ml-4 flex items-center justify-start lg:mb-0 mb-4 pointer-cursor">
-                <img class="rounded-full w-10 h-10 border-2 border-transparent hover:border-indigo-400" src="../public/foto/logo.jpeg" alt="logo sma">
-                <p class ="lg:p-4 py-2 ">bersama smansago, membangun negeri !!</p>
+                <img class="rounded-full w-10 h-10 border-2 border-transparent hover:border-indigo-400" src="../public/foto/logo-musaba.JPG" alt="logo smk">
+                <p class ="lg:p-4 py-2 ">SMK Musaba</p>
               </a>
         </div>
         <label for="menu-toggle" class="pointer-cursor lg:hidden block">
@@ -95,7 +95,7 @@ $user = $result->fetch_assoc();
                         <img src="foto/absensi.jpg" alt="Image" class="w-full h-48 object-cover">
                         <div class="p-4">
                             <h3 class="font-bold text-xl mb-2">Absensi</h3>
-                            <p class="text-gray-700 text-base">presensi mahasiswa SMA N 1 GOMBONG</p>
+                            <p class="text-gray-700 text-base">presensi mahasiswa SMK MUHAMMADIYAH 1 BANTUL</p>
                         </div>
                     </a>
                     <!-- Card 2 -->
@@ -103,7 +103,7 @@ $user = $result->fetch_assoc();
                         <img src="foto/jadwal.jpg" alt="Image" class="w-full h-48 object-cover">
                         <div class="p-4">
                             <h3 class="font-bold text-xl mb-2">Jadwal</h3>
-                            <p class="text-gray-700 text-base">jadwal pelajaran siswa dan siswi SMA N 1 GOMBONG</p>
+                            <p class="text-gray-700 text-base">jadwal pelajaran siswa dan siswi SMK MUHAMMADIYAH 1 BANTUL</p>
                         </div>
                     </a>
                     <!-- Card 3 -->
@@ -130,8 +130,8 @@ $user = $result->fetch_assoc();
     <div class="mx-auto w-full max-w-screen-xl p-3 py-6 lg:py-8">
     <div class="flex justify-center items-center">
     <a href="#" class="flex items-center">
-        <img src="../public/foto/logo.jpeg" class="h-8 me-3" alt="logoSMA" />
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">SMAN 1 GOMBONG</span>
+        <img src="../public/foto/logo-musaba.JPG" class="h-8 me-3" alt="logoSMK" />
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">SMK MUHAMMADIYAH 1 BANTUL</span>
     </a>
 </div>
 
@@ -156,7 +156,11 @@ $user = $result->fetch_assoc();
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">About</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                        <li class="mb-4"><a href="#" class="hover:underline">Sekolah Menengah Atas Negeri 1 Gombong atau dikenal juga dengan nama smansago yang berada di Gombong, Kebumen. SMA Negeri 1 Gombong menempati gedung di Jl. Sempor Lama No. 64 yang didirikan tahun 1963</a></li>
+                        <li class="mb-4"><a href="#" class="hover:underline">
+                        SMK Muhammadiyah 1 Bantul adalah sebuah sekolah menengah kejuruan (SMK) swasta yang terletak di Jl. Parangtritis Km 12 Manding, Kabupaten Bantul, Yogyakarta
+                        Sekolah ini didirikan pada tahun 1970 dan masih menggunakan program kurikulum belajar SMK 2013.
+                        Sekolah ini menawarkan berbagai jurusan yang disesuaikan dengan kebutuhan industri dan masyarakat, serta menyediakan berbagai kegiatan ekstrakurikuler seperti karate, basket, futsal, dan grup belajar.
+                        </a></li>
                         <li><a href="#" class="hover:underline"></a></li>
                     </ul>
                 </div>
