@@ -36,6 +36,9 @@ $result = $conn->query($sql);
                         <td class="px-6 py-4 whitespace-nowrap"><?php echo $row['jam']; ?></td>
                         <td class="px-6 py-4 whitespace-nowrap"><?php echo $row['mata_pelajaran']; ?></td>
                     </tr>
+
+                    <buuton>
+
                 <?php endwhile; ?>
             </tbody>
         </table>

@@ -55,7 +55,8 @@
         <div class="sm:flex sm:items-center sm:justify-between">
             <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="#" class="hover:underline">SMK MUSABA</a>. All Rights Reserved.</span>
             <div class="flex mt-4 sm:justify-center sm:mt-0">
-                <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+
+                <!-- <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                     <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
                         <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
                     </svg>
@@ -78,7 +79,8 @@
                         <path fill-rule="evenodd" d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm4.195 6.195A6.679 6.679 0 0 0 10 4.6a6.679 6.679 0 0 0-4.195 1.6A6.679 6.679 0 0 0 4.6 10a6.68 6.68 0 0 0 1.6 4.195A6.68 6.68 0 0 0 10 15.8a6.68 6.68 0 0 0 4.195-1.6A6.679 6.679 0 0 0 15.8 10a6.679 6.679 0 0 0-1.605-3.805Zm-8.283 8.283a7.978 7.978 0 0 1-1.21-1.21l2.312-.618-.472-.472-.619 2.312a7.978 7.978 0 0 1-1.21-1.21Zm1.894 1.046 3.823-1.023-2.8-2.8-1.023 3.823Zm7.194-3.46-2.311.619.472.472.619-2.312a7.978 7.978 0 0 1 1.21 1.21ZM11.853 8.2a.943.943 0 0 1-.267-.628.905.905 0 0 1 .267-.627.905.905 0 0 1 1.255 0 .905.905 0 0 1 0 1.255.913.913 0 0 1-.628.267.943.943 0 0 1-.628-.267ZM10 0a10 10 0 0 0-6.32 17.684A10 10 0 0 1 17.684 3.68 9.931 9.931 0 0 0 10 0Z" clip-rule="evenodd"/>
                     </svg>
                     <span class="sr-only">LinkedIn page</span>
-                </a>
+                </a> -->
+
             </div>
         </div>
     </div>
