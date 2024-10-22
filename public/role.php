@@ -37,7 +37,7 @@ $user = $result->fetch_assoc();
         <div class="flex-1 flex justify-between items-center">
             <a href="index.html" class="lg:ml-4 flex items-center justify-start lg:mb-0 mb-4 pointer-cursor">
                 <img class="rounded-full w-10 h-10 border-2 border-transparent hover:border-indigo-400" src="../public/foto/logo-musaba.JPG" alt="logo smk">
-                <p class ="lg:p-4 py-2 ">SMK Musaba</p>
+                <p class ="lg:p-4 py-2 "><b>SMK MUHAMMADIYAH 1 BANTUL</b></p>
               </a>
         </div>
         <label for="menu-toggle" class="pointer-cursor lg:hidden block">
@@ -139,10 +139,22 @@ $user = $result->fetch_assoc();
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Ikuti kami</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                        <li class="mb-1"><a href="#" class="hover:underline ">instagram</a></li>
-                        <li class="mb-1"><a href="#" class="hover:underline">facebook</a></li>
-                        <li class="mb-1"><a href="#" class="hover:underline">youtube</a></li>
-                        <li><a href="#" class="hover:underline">X</a></li>
+                    <div class="row justify-content-start">
+                        <a href="https://smkmuh1bantul.sch.id" class="block mb-3 text-lg" type="button" id="btncari">
+                            <i class="fa fa-briefcase"></i> https://smkmuh1bantul.sch.id 
+                        </a>
+                        <a href="https://www.instagram.com/smkmusaba/" class="block mb-3 text-lg" type="button" id="btncari">
+                            <i class="fa fa-instagram"></i> @smkmusaba
+                        </a>
+                        <a href="https://web.facebook.com/smkmusaba" class="block mb-3 text-lg" type="button" id="btncari">
+                            <i class="fa fa-facebook-square"></i> @smkmusaba
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCfwnlEtnJvQQA6oMk8pcLUA" class="block mb-3 text-lg" type="button" id="btncari">
+                            <i class="fa fa-youtube"></i> SMK MUSABA
+                        </a>
+                        <a href="https://wa.me/6285943542304" class="block mb-3 text-lg" type="button" id="btncari">
+                            <i class="fa fa-whatsapp"></i> 085943542304
+                        </a>
                     </ul>
                 </div>
                 <div>
