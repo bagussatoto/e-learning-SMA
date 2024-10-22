@@ -12,11 +12,11 @@
 
  ## ✅ About 
 
-    e-Learning SMK Muhammadiyah 1 Bantul (Musaba) adalah sebuah platform pembelajaran daring yang dirancang untuk mendukung proses belajar mengajar di SMK Muhammadiyah 1 Bantul. Platform ini memungkinkan siswa untuk mengakses materi pelajaran, tugas, dan berbagai sumber belajar lainnya secara online. Dengan adanya e-Learning, siswa dapat belajar dengan lebih fleksibel dan efisien tanpa terbatas oleh waktu dan tempat.
+        e-Learning SMK Muhammadiyah 1 Bantul (Musaba) adalah sebuah platform pembelajaran daring yang dirancang untuk mendukung proses belajar mengajar di SMK Muhammadiyah 1 Bantul. Platform ini memungkinkan siswa untuk mengakses materi pelajaran, tugas, dan berbagai sumber belajar lainnya secara online. Dengan adanya e-Learning, siswa dapat belajar dengan lebih fleksibel dan efisien tanpa terbatas oleh waktu dan tempat.
 
-    Platform ini menawarkan berbagai fitur yang memudahkan proses pembelajaran. Pertama, terdapat fitur kelas virtual yang memungkinkan siswa dan guru berinteraksi secara langsung melalui video konferensi. Dalam kelas virtual ini, guru dapat memberikan penjelasan materi, menjawab pertanyaan siswa, dan bahkan memberikan tugas secara real-time. Selain itu, platform ini juga menyediakan forum diskusi di mana siswa dapat berdiskusi tentang materi pelajaran, bertukar ide, dan memecahkan masalah bersama-sama.
+        Platform ini menawarkan berbagai fitur yang memudahkan proses pembelajaran. Pertama, terdapat fitur kelas virtual yang memungkinkan siswa dan guru berinteraksi secara langsung melalui video konferensi. Dalam kelas virtual ini, guru dapat memberikan penjelasan materi, menjawab pertanyaan siswa, dan bahkan memberikan tugas secara real-time. Selain itu, platform ini juga menyediakan forum diskusi di mana siswa dapat berdiskusi tentang materi pelajaran, bertukar ide, dan memecahkan masalah bersama-sama.
 
-    Sistem e-Learning ini juga mempermudah komunikasi antara guru dan siswa. Melalui platform ini, siswa dapat mengirim pesan kepada guru, meminta bantuan, atau mengajukan pertanyaan terkait materi pelajaran. Di sisi lain, guru dapat memberikan umpan balik langsung kepada siswa, memberikan saran, dan memotivasi siswa untuk terus belajar.
+        Sistem e-Learning ini juga mempermudah komunikasi antara guru dan siswa. Melalui platform ini, siswa dapat mengirim pesan kepada guru, meminta bantuan, atau mengajukan pertanyaan terkait materi pelajaran. Di sisi lain, guru dapat memberikan umpan balik langsung kepada siswa, memberikan saran, dan memotivasi siswa untuk terus belajar.
 
 
 <!-- Garis Lurus -->
@@ -43,6 +43,10 @@
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+- [PHP](https://www.php.net/docs.php)
+
+- [Hack](https://docs.hhvm.com/hack/modules/introduction)
 
 - [Git](https://git-scm.com/)
 
