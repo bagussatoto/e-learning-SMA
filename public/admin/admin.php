@@ -29,7 +29,7 @@ $result_attendance = $conn->query($sql_attendance);
 <body class="bg-gray-100 p-6">
     <div class="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-md">
         <h2 class="text-2xl font-bold mb-6">Admin Panel</h2>
-        <a href="../role.php" class="lg:p-2 py-4 border-b-1 bg-blue-600 text-white p-4 rounded">kembali</a>
+        <a href="../role.php" class="lg:p-2 py-4 border-b-1 bg-blue-600 text-white p-4 rounded mb-6 inline-block">kembali</a>
         
         <!-- Users Table -->
         <h3 class="text-xl font-bold mb-4">Users</h3>
