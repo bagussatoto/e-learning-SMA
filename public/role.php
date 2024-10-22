@@ -39,7 +39,6 @@ $role = $_SESSION['role'];
         <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
             <nav>
                 <ul class="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
-1
                     <a href="logout.php" class="lg:p-4 py-1 border-b-1 bg-red-600 text-white p-1 rounded">Logout</a>
                 </ul>
             </nav>        
@@ -47,8 +46,8 @@ $role = $_SESSION['role'];
     </header>
 
     <div id="welcomeMessage" class="bg-yellow-300 rounded-lg shadow-md text-center overflow-hidden px-5 mx-4 py-3 ">
-        <p>selamat datang kembali, <?php echo $user['username']; ?></p>   
-    </div>
+        <p>selamat datang kembali, <?php echo $user['username']; ?></p>    
+    </div>  //// eror please 
     <div class="container mx-auto px-4 py-10">
         <?php if ($role == 'admin'): ?>
             <a href="./admin/admin.php" class="block w-full text-center bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700">edit semua user</a>
