@@ -84,7 +84,7 @@ $result_attendance = $conn->query($sql_attendance);
                         <td class="px-6 py-4 whitespace-nowrap"><?php echo $row['attendance_date']; ?></td>
                         <td class="px-6 py-4 whitespace-nowrap">
                             <a href="edit_attendance.php?id=<?php echo $row['id']; ?>" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-                            <a href="delete_attendance.php?id=<?php echo $row['id']; ?>" class="text-red-600 hover:text-red-900 ml-4" onclick="return confirm('yakin maw menghacus pengguna ini?');">Delete</a>
+                            <a href="delete_attendance.php?id=<?php echo $row['id']; ?>" class="text-red-600 hover:text-red-900 ml-4" onclick="return confirm('yakin mau menghapus pengguna ini?');">Delete</a>
                         </td>
                     </tr>
                 <?php endwhile; ?>
